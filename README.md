@@ -1,24 +1,24 @@
 # JJ-loon-config
 iOS / tvOS 代理软件 Loon 的配置文件。配置逻辑、策略组和规则顺序参考 [JJ-clash-config](https://github.com/sydneygao/JJ-clash-config)，并转换为 Loon 原生语法。
 
-> Loon 配置采用 `[General]`、`[Proxy Group]`、`[Rule]` 等 INI 风格分段语法，并不是 YAML；文件扩展名按仓库命名习惯保留为 `.yaml`。
+> Loon 主配置采用 `[General]`、`[Proxy Group]`、`[Rule]` 等 INI 风格分段语法，标准文件扩展名为 `.conf`。
 
-## 1. `JJ-config_full.yaml`，含机场订阅的配置文件
+## 1. `JJ-config_full.conf`，含机场订阅的配置文件
 
 ### Step 1. 🔗 下载配置文件
 
 **Original link:**
 ```text
-https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config_full.yaml
+https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config_full.conf
 ```
 
 **China acceleration 🚀:**
 ```text
-https://cdn.jsdelivr.net/gh/sydneygao/JJ-loon-config@main/JJ-config_full.yaml
+https://cdn.jsdelivr.net/gh/sydneygao/JJ-loon-config@main/JJ-config_full.conf
 ```
 
 ```text
-https://git.yylx.win/raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config_full.yaml
+https://git.yylx.win/raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config_full.conf
 ```
 
 ### Step 2. ✈️ 添加机场订阅
@@ -36,24 +36,24 @@ Airport1 = https://example.com/your-profile.yaml,parser-enabled=true,udp=true,fa
 
 ### Step 3. ➕ 导入配置
 
-保存修改后的 `JJ-config_full.yaml`，然后在 Loon 的配置页面通过本地文件导入。
+保存修改后的 `JJ-config_full.conf`，然后在 Loon 的配置页面通过本地文件导入。
 
-## 2. `JJ-config.yaml`，不含机场订阅的纯配置文件
+## 2. `JJ-config.conf`，不含机场订阅的纯配置文件
 
 ### Step 1. 🔗 使用链接导入
 
 **Original link:**
 ```text
-https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config.yaml
+https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config.conf
 ```
 
 **China acceleration 🚀:**
 ```text
-https://cdn.jsdelivr.net/gh/sydneygao/JJ-loon-config@main/JJ-config.yaml
+https://cdn.jsdelivr.net/gh/sydneygao/JJ-loon-config@main/JJ-config.conf
 ```
 
 ```text
-https://git.yylx.win/raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config.yaml
+https://git.yylx.win/raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config.conf
 ```
 
 ### Step 2. ✈️ 单独添加机场订阅
