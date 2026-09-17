@@ -100,6 +100,8 @@ DOMAIN-SUFFIX,searchgpt.com,Ai
 DOMAIN,cdn.openaimerge.com,Ai
 DOMAIN-SUFFIX,gemini.googleusercontent.com,Ai
 DOMAIN-SUFFIX,copilotstudio.microsoft.com,Ai
+DOMAIN-SUFFIX,copilot.microsoft.com,Ai
+DOMAIN-SUFFIX,copilot.cloud.microsoft,Ai
 DOMAIN-SUFFIX,muse.ai,Ai
 DOMAIN-SUFFIX,skiv.com,Ai
 
@@ -139,10 +141,8 @@ FINAL,漏网之鱼
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Lan/Lan.list,policy=DIRECT,tag=Private,enabled=true
 
 # AI
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list,policy=Ai,tag=OpenAI,enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Claude/Claude.list,policy=Ai,tag=Claude,enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Gemini/Gemini.list,policy=Ai,tag=Gemini,enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Copilot/Copilot.list,policy=Ai,tag=Copilot,enabled=true
+# 使用纯域名规则，避免第三方 AI 规则中的共享云服务 ASN 扩大匹配范围。
+https://ruleset.skk.moe/List/non_ip/ai.conf,policy=Ai,tag=AI,enabled=true
 
 # Google（含 YouTube）
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list,policy=Google,tag=Google,enabled=true
@@ -175,4 +175,3 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/
 # 国内直连与海外兜底
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list,policy=DIRECT,tag=ChinaMax,enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global.list,policy=默认代理,tag=Global,enabled=true
-
