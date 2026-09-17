@@ -68,6 +68,8 @@ https://git.yylx.win/raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-
 - Google、Apple、Microsoft、AI、社交、游戏、Netflix、Spotify、PayPal 等业务策略。
 - 家庭 Wi-Fi 直连，蜂窝网络及其他网络使用规则模式。
 - Clash / Mihomo 的 `.mrs` 规则不能直接用于 Loon，已改用 Loon 可识别的远程 `.list` / `.conf` 规则。
+- AI 规则组合 SKK 的 AIGC 域名集与 ChatGPT Voice IP 集，并参考 Shadowrocket / Surge 配置补齐 OpenAI、Claude、Gemini、Copilot 的关键依赖域名；共享云服务 ASN 不纳入 AI 策略。
+- 儿童保护使用自动更新的 Loon 原生 `category-porn` 规则，并补充 OnlyFans 等核心域名。需要阻止访问时，请在 `Shield` 策略组中选择 `REJECT`。
 - Loon 远程规则位于 `[Remote Rule]`；节点筛选使用 `[Remote Filter]` 的 `NameRegex`。
 - `IP-CIDR` 与 `IP-ASN` 规则使用 `no-resolve`，减少不必要的 DNS 查询。
 - 官方文档：[Loon 使用手册](https://nsloon.app/docs/intro/)
