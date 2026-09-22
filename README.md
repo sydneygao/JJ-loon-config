@@ -7,17 +7,22 @@ iOS / tvOS 代理软件 Loon 的配置文件。配置逻辑、策略组和规则
 
 ### Step 1. 🔗 下载配置文件
 
-**主链路（gh-proxy.org｜最快，≤60 秒更新）：**
+**主链路（gh-proxy.org｜缓存，≤60 秒更新）：**
 ```text
 https://gh-proxy.org/https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config_full.conf
 ```
 
-**备链路（gh.idayer.com｜不同链路，实时）：**
+**备用链路1（gh.idayer.com｜动态回源，实时更新）：**
 ```text
 https://gh.idayer.com/https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config_full.conf
 ```
 
-**兜底链路（cdn.jsdelivr.net｜最稳，接受最长约 12 小时延迟）：**
+**备用链路2（git.yylx.win｜动态回源，实时更新）：**
+```text
+https://git.yylx.win/https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config_full.conf
+```
+
+**备用链路3（cdn.jsdelivr.net｜稳定，更新延迟12小时）：**
 ```text
 https://cdn.jsdelivr.net/gh/sydneygao/JJ-loon-config@main/JJ-config_full.conf
 ```
@@ -43,17 +48,22 @@ Airport1 = https://example.com/your-profile.yaml,parser-enabled=true,udp=true,fa
 
 ### Step 1. 🔗 使用链接导入
 
-**主链路（gh-proxy.org｜最快，≤60 秒更新）：**
+**主链路（gh-proxy.org｜缓存，≤60 秒更新）：**
 ```text
 https://gh-proxy.org/https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config.conf
 ```
 
-**备链路（gh.idayer.com｜不同链路，实时）：**
+**备用链路1（gh.idayer.com｜动态回源，实时更新）：**
 ```text
 https://gh.idayer.com/https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config.conf
 ```
 
-**兜底链路（cdn.jsdelivr.net｜最稳，接受最长约 12 小时延迟）：**
+**备用链路2（git.yylx.win｜动态回源，实时更新）：**
+```text
+https://git.yylx.win/https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config.conf
+```
+
+**备用链路3（cdn.jsdelivr.net｜稳定，更新延迟12小时）：**
 ```text
 https://cdn.jsdelivr.net/gh/sydneygao/JJ-loon-config@main/JJ-config.conf
 ```
