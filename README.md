@@ -7,18 +7,19 @@ iOS / tvOS 代理软件 Loon 的配置文件。配置逻辑、策略组和规则
 
 ### Step 1. 🔗 下载配置文件
 
-**Original link:**
+**主链路（gh-proxy.org｜最快，≤60 秒更新）：**
 ```text
-https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config_full.conf
+https://gh-proxy.org/https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config_full.conf
 ```
 
-**China acceleration 🚀:**
+**备链路（gh.idayer.com｜不同链路，实时）：**
+```text
+https://gh.idayer.com/https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config_full.conf
+```
+
+**兜底链路（cdn.jsdelivr.net｜最稳，接受最长约 12 小时延迟）：**
 ```text
 https://cdn.jsdelivr.net/gh/sydneygao/JJ-loon-config@main/JJ-config_full.conf
-```
-
-```text
-https://git.yylx.win/raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config_full.conf
 ```
 
 ### Step 2. ✈️ 添加机场订阅
@@ -42,18 +43,19 @@ Airport1 = https://example.com/your-profile.yaml,parser-enabled=true,udp=true,fa
 
 ### Step 1. 🔗 使用链接导入
 
-**Original link:**
+**主链路（gh-proxy.org｜最快，≤60 秒更新）：**
 ```text
-https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config.conf
+https://gh-proxy.org/https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config.conf
 ```
 
-**China acceleration 🚀:**
+**备链路（gh.idayer.com｜不同链路，实时）：**
+```text
+https://gh.idayer.com/https://raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config.conf
+```
+
+**兜底链路（cdn.jsdelivr.net｜最稳，接受最长约 12 小时延迟）：**
 ```text
 https://cdn.jsdelivr.net/gh/sydneygao/JJ-loon-config@main/JJ-config.conf
-```
-
-```text
-https://git.yylx.win/raw.githubusercontent.com/sydneygao/JJ-loon-config/main/JJ-config.conf
 ```
 
 ### Step 2. ✈️ 单独添加机场订阅
